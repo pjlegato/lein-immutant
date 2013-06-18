@@ -1,4 +1,4 @@
-(defproject lein-immutant "1.0.0-SNAPSHOT"
+(defproject lein-immutant "1.0.0-SNAPSHOT-midje"
   :description "Leiningen plugin for managing an Immutant project."
   :url "https://github.com/immutant/lein-immutant"
   :mailing-list {:name "Immutant users list"
@@ -14,7 +14,7 @@
                  [org.immutant/deploy-tools "0.13.1"]
                  [org.clojure/data.json     "0.2.1"]
                  [org.clojure/tools.cli     "0.2.1"]
-                 [org.immutant/fntest       "0.3.15-SNAPSHOT"]]
+                 [org.immutant/fntest       "0.3.16-SNAPSHOT"]]
   :profiles {:dev
              {:dependencies [[lein-midje "2.0.3"]
                              [leinjacker "0.4.1"]
